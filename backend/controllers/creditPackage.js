@@ -28,7 +28,7 @@ class CreditPackageController {
       logger.error(error)
       next(error)
     }
-  }
+  } 
 
   static async postCreditPackage (req, res, next) {
     try {
